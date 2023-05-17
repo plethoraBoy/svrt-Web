@@ -1,0 +1,16 @@
+<div>
+  <label [for]="id" *ngIf="label"
+  >{{ label }}
+  <span *ngIf="required" class="required-asterik"></span></label
+>
+
+  <div class="form-group">
+    <input class="form-control"
+    [type]="type"
+    [name]="id"
+    [id]="id"
+    [placeholder]="placeholder"
+    [autocomplete]="'off'"
+    >
+  </div>
+</div>
